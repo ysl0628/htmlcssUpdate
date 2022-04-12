@@ -88,10 +88,24 @@ table {
     padding-bottom: 20px;
 }
 .header nav ul a{
+    font-size: 18px;
     padding-left: 30px;
     padding-bottom: 10px;
     text-decoration: none;
+    text-align: center;
     color: #00cc99;
+    position: relative;
+}
+.header nav ul a:after{
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    left: 25px;
+    width: 0%;
+}
+.header nav ul a:hover:after{
+    width: 80%;
+    border-bottom: solid 5px #00CC99;
 }
 .banner{
     background-image: url("images/banner.png");
