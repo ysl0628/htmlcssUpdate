@@ -89,7 +89,8 @@ table {
 }
 .header nav ul a{
     font-size: 18px;
-    padding-left: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 10px;
     text-decoration: none;
     text-align: center;
@@ -100,11 +101,11 @@ table {
     content: "";
     position: absolute;
     bottom: -7px;
-    left: 25px;
+    left: 0;
     width: 0%;
 }
 .header nav ul a:hover:after{
-    width: 80%;
+    width: 100%;
     border-bottom: solid 5px #00CC99;
 }
 .banner{
