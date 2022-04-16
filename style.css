@@ -323,6 +323,9 @@ button:hover{
         flex-direction: column;
         justify-content: center;
     }
+    .header nav h1{
+        padding-top: 5%;
+    }
     .header nav ul{
         justify-content: center;
     }
