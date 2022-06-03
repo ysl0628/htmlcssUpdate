@@ -303,8 +303,8 @@ button:hover{
 @media (max-width:768px){
     .course-item{
         width: 50%;
-    /* }
-   .header nav{
+    }
+   /* .header nav{
         flex-direction: column;
         justify-content: center;
     }
@@ -331,6 +331,12 @@ button:hover{
     }
     .header nav ul a{
         font-size: 18px;
+    }
+    .compare{
+        overflow-x: auto;
+    }
+    table{
+        width: 768px;
     }
     .contactus textarea{
         width: 80%;
